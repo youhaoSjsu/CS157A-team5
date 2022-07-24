@@ -126,7 +126,7 @@ try {
 						//rs =
 						statement.executeUpdate(sqlAddStudentStatment);
 						int roleId = 1;//for students
-						sqlAddStudentStatment = "INSERT INTO `student_portal`.`user_roles` (`user_id`, `role_id`) VALUES('"+newId+"','"+roleId+"');";
+						sqlAddStudentStatment = "INSERT INTO `student_portal`.`has` (`user_id`, `role_id`) VALUES('"+newId+"','"+roleId+"');";
 						statement.executeUpdate(sqlAddStudentStatment);
 						rs.close();
 						statement.close();
@@ -153,10 +153,10 @@ try {
 		ResultSet rs = statement.executeQuery(selectUsernameSql);
 		
 		if (rs.next()){ // if the user id exists
-			String checkIfAdminSql = "SELECT * FROM user_roles JOIN roles ON user_roles.user_id='" + userId + "' AND user_roles.role_id=roles.role_id AND roles.role_name='admin'";
+			String checkIfAdminSql = "SELECT * FROM has JOIN roles ON has.user_id='" + userId + "' AND has.role_id=roles.role_id AND roles.role_name='admin'";
 			rs = statement.executeQuery(checkIfAdminSql);
 			if (!rs.next()){ // if the user id does not belong to an admin
-				statement.executeUpdate("DELETE FROM `student_portal`.`user_roles` WHERE (`user_id` = '" + userId + "');");
+				statement.executeUpdate("DELETE FROM `student_portal`.`has` WHERE (`user_id` = '" + userId + "');");
 				statement.executeUpdate("DELETE FROM `student_portal`.`users` WHERE (`user_id` = '" + userId + "');");
 			} else {  // if the user id does not belongs to an admin
 				out.println("Cannot delete user. User id belongs to an admin.");
