@@ -1,0 +1,171 @@
+
+.login-page {
+	width: 370px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.login-header {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.student-home {
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.student-home-title {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+}
+
+input, select, textarea {
+	color: white;
+}
+
+::placeholder { 
+	color: #797979;
+	opacity: 1;
+}
+
+.login-page .form .login{
+	margin-top: -31px;
+	margin-bottom: 26px;
+}
+.form {
+	text-align: center;
+}
+
+.form input {
+	font-family: Helvetica, sans-serif;
+  	background: #282828;
+  	width: 100%;
+  	outline: 0;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+.form input[type=submit] {
+	font-family: Helvetica, sans-serif;
+  /*text-transform: uppercase;*/
+  	outline: 0;
+  	background-image: linear-gradient(90deg,#FC0441,#F62DA8);
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+/* .studentMain
+{
+	
+	
+	background-color:blue;
+	text-align:center
+}
+.buttonInput{
+	font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  	outline: 0;
+  	background-image: linear-gradient(90deg,#FC0441,#F62DA8);
+  	width: 100px;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 12px;
+  	cursor: pointer;
+  	margin-top:20px;
+  	horizontal-align: center;
+} */
+
+
+body {
+/*  		color: white;
+ */ 
+  background-color: #141414;
+ 	font-family: Helvetica, sans-serif;
+}
+.login-page {
+	width: 370px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.login-header {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.student-home {
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.student-home-title {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+}
+
+input, select, textarea {
+	color: white;
+}
+
+::placeholder { 
+	color: #797979;
+	opacity: 1;
+}
+
+.login-page .form .login{
+	margin-top: -31px;
+	margin-bottom: 26px;
+}
+.form {
+	text-align: center;
+}
+
+.form input {
+	font-family: Helvetica, sans-serif;
+  	background: #282828;
+  	width: 100%;
+  	outline: 0;
+  	border: 0;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+.form input[type=submit] {
+	font-family: Helvetica, sans-serif;
+  /*text-transform: uppercase;*/
+  	outline: 0;
+  	background-image: linear-gradient(90deg,#FC0441,#F62DA8);
+  	width: 100%;
+  	border: 0;
+  	padding: 15px;
+  	color: #FFFFFF;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+
+
+body {
+/*  		color: white;
+ */ 
+  background-color: #141414;
+ 	font-family: Helvetica, sans-serif;
+
+}

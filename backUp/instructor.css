@@ -1,0 +1,93 @@
+.myspan {
+  color: red;
+}
+
+.instructor-home {
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.instructor-home-title {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.change-student-grade-form {
+	padding-top: 20px;	
+	color: white;
+}
+
+.drop-student-form {
+	padding-top: 20px;	
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+input, select, textarea {
+	outline: 0;
+	background-color: #282828;
+	color: white;
+}
+
+::placeholder { 
+	color: #797979;
+	opacity: 1;
+}
+
+
+.form {
+	text-align: center;
+/*    box-shadow: 0 0 20px 0 rgba(0, 255, 255, 0.4), 0 3px 3px 0 rgba(255, 0, 255, 0.1);
+ */   
+ }
+
+.form2 input { 
+  	border: 0;
+   	padding: 8px;
+}
+
+.form3 input { 
+  	border: 0;
+   	padding: 8px;
+}
+
+.input[type=search] {
+	background-color: blue;
+  	color: blue;
+}
+
+input[type=submit] {
+  font-family: Helvetica, sans-serif;
+  /*text-transform: uppercase;*/
+  outline: 0;
+  background-image: linear-gradient(90deg,#FC0441,#F62DA8);
+  width: 150px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+
+
+
+
+body {
+  background-color: #141414;
+  font-family: Helvetica, sans-serif;
+}

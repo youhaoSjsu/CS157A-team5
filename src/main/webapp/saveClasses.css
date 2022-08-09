@@ -1,0 +1,67 @@
+/* input, select, textarea {
+	outline: 0;
+	background-color: #282828;
+	color: white;
+}
+
+
+table th:nth-child(1) {
+  width: 15%;
+}
+
+table th:nth-child(2) {
+  width: 10%;
+}
+
+table th:nth-child(3) {
+  width: 15%;
+}
+
+table th:nth-child(4) {
+  width: 25%;
+}
+table th:nth-child(5) {
+  width: 25%;
+}
+table th:nth-child(6) {
+  width: 10%;
+}
+
+th {
+	padding: 15px;
+	background-color: #0072ff; 
+}
+
+td {
+	padding: 15px;
+}
+
+table {  
+	border: 2px solid;
+	border-collapse: collapse;
+	width: 90%;
+}
+
+.backButton {
+	outline: 0;
+	border: 0;
+	border-radius: 40%;	
+	width: 42px;
+	height: 42px;
+	background-color: #00BFFF;
+	font-size: 22px;
+	color: white;
+} 
+
+.backButton:hover {
+	background-color: #1E90FF;
+} 
+
+
+body {
+	margin-top: 2%;
+	margin-left: 2%;
+  	background-color: #141414;
+  	color: white;
+  	font-family: Helvetica, sans-serif;
+} */
